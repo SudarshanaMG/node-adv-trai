@@ -28,6 +28,7 @@ function addNote(title, body) {
     }
     notes.push({title, body});
     saveNotes(notes);
+    // console.log(chalk.green(`Note added: ${chalk.bold(title)}`));
     console.log(chalk.green(`Note added: ${chalk.bold(`${title}`)}`));
 }
 
